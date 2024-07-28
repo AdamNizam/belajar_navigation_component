@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--suppress NavigationFile -->
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -36,4 +37,12 @@
         android:name="com.example.belajar_navigation_component.DetailCategoryFragment"
         android:label="fragment_detail_category"
         tools:layout="@layout/fragment_detail_category" />
+    <argument
+        android:name="name"
+        app:argType="string"
+        android:defaultValue="default name" />
+    <argument
+        android:name="stock"
+        app:argType="long"
+        android:defaultValue="0L" />
 </navigation>

@@ -28,12 +28,10 @@ class DetailCategoryFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         val dataName = arguments?.getString(CategoryFragment.EXTRA_NAME)
-        val adm = arguments?.getString(CategoryFragment.Adm_Nizam)
         val dataDescription = arguments?.getLong(CategoryFragment.EXTRA_STOCK)
 
         binding.tvCategoryName.text = dataName
         binding.tvCategoryDescription.text = "Stock : $dataDescription"
-        binding.admName.text = adm
     }
 
     override fun onDestroy() {

@@ -36,7 +36,7 @@
         android:id="@+id/detailCategoryFragment"
         android:name="com.example.belajar_navigation_component.DetailCategoryFragment"
         android:label="fragment_detail_category"
-        tools:layout="@layout/fragment_detail_category" />
+        tools:layout="@layout/fragment_detail_category">
     <argument
         android:name="name"
         app:argType="string"
@@ -45,4 +45,5 @@
         android:name="stock"
         app:argType="long"
         android:defaultValue="0L" />
+    </fragment>
 </navigation>

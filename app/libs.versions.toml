@@ -1,0 +1,8 @@
+[versions]
+kotlin = "1.8.20"
+android = "8.1.0"
+androidx.navigation = "2.5.3"
+
+[plugins]
+androidApplication = "com.android.application:${android}"
+kotlinAndroid = "org.jetbrains.kotlin.android:${kotlin}"

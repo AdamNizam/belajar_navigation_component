@@ -17,7 +17,6 @@ class CategoryFragment : Fragment() {
     companion object {
         val EXTRA_NAME = "extra_name"
         val EXTRA_STOCK = "extra_stock"
-        val Adm_Nizam = "Admnizam37"
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
@@ -34,7 +33,6 @@ class CategoryFragment : Fragment() {
         binding.btnCategoryLifestyle.setOnClickListener { view ->
             val mBundle = Bundle()
             mBundle.putString(EXTRA_NAME, "Lifestyle")
-            mBundle.putString(Adm_Nizam,"Adam Nizam Harus Bisa Membahagiakan Your Mom Angels")
             mBundle.putLong(EXTRA_STOCK, 7)
             view.findNavController().navigate(R.id.action_categoryFragment_to_detailCategoryFragment, mBundle)
         }
